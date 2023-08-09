@@ -1,0 +1,60 @@
+-------------------------------------------------------------------------------
+Test set: com.headway.runner.LoginByTextMessageTestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 32.977 s <<< FAILURE! - in com.headway.runner.LoginByTextMessageTestSuite
+Login to GDM Headway.Login - Login screen - Identity validation - Text message  Time elapsed: 31.423 s  <<< ERROR!
+org.openqa.selenium.ElementNotInteractableException: 
+Timed out after 20 seconds. Element not available
+Build info: version: '4.8.0', revision: '267030adea'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: driver.version: unknown
+	at net.thucydides.core.annotations.locators.SmartAjaxElementLocator.ajaxFindElement(SmartAjaxElementLocator.java:161)
+	at net.thucydides.core.annotations.locators.SmartAjaxElementLocator.findElement(SmartAjaxElementLocator.java:116)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at com.sun.proxy.$Proxy65.isDisplayed(Unknown Source)
+	at com.headway.steps.StepConnectionPage.validatesMicrosoftPopOpens(StepConnectionPage.java:62)
+	at com.headway.steps.StepConnectionPage$ByteBuddy$Ep5T2gMQ.validatesMicrosoftPopOpens$accessor$1iJA3B4Q(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at net.thucydides.core.steps.BaseMethodRunner.invokeMethod(BaseMethodRunner.java:18)
+	at net.thucydides.core.steps.NormalMethodRunner.invokeMethodAndNotifyFailures(NormalMethodRunner.java:18)
+	at net.thucydides.core.steps.StepInterceptor.runNormalMethod(StepInterceptor.java:421)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:193)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:86)
+	at net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)
+	at com.headway.steps.StepConnectionPage$ByteBuddy$Ep5T2gMQ.validatesMicrosoftPopOpens(Unknown Source)
+	at com.headway.definitions.LoginPageDefinitions.validatesMicrosoftPopOpens(LoginPageDefinitions.java:55)
+	at ✽.the Microsoft log in pop-up is shown(classpath:features/LoginToHeadway.feature:72)
+
+Login to GDM Headway.Login - Login screen - Successful login - Text message  Time elapsed: 0.188 s  <<< ERROR!
+org.openqa.selenium.NoSuchWindowException: 
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=114.0.5735.199)
+Build info: version: '4.8.0', revision: '267030adea'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3ba8303c850655d8d029dd7314e7fd4e, get {url=https://qa.headway.gdmseeds.com/}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\NATHAC~1.VAL\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:63711}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63711/devtoo..., se:cdpVersion: 114.0.5735.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3ba8303c850655d8d029dd7314e7fd4e
+	at jdk.internal.reflect.GeneratedConstructorAccessor18.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:297)
+	at net.thucydides.core.webdriver.WebDriverFacade.get(WebDriverFacade.java:192)
+	at net.serenitybdd.core.pages.PageObject.openPageAtUrl(PageObject.java:982)
+	at net.serenitybdd.core.pages.PageObject.open(PageObject.java:880)
+	at net.serenitybdd.core.pages.PageObject.open(PageObject.java:868)
+	at com.headway.definitions.LoginPageDefinitions.openApplication(LoginPageDefinitions.java:20)
+	at ✽.a web browser is at headway login page with a registered user(classpath:features/LoginToHeadway.feature:99)
+

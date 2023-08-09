@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="146c6342-7b91-4daa-8155-75682d0145e5" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/headway/pageobjects/AddParentsListsPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/headway/pageobjects/ConnectionPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/headway/pageobjects/ConnectionPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/headway/pageobjects/CreateSeriePage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/headway/pageobjects/DeleteSeriePage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/headway/pageobjects/DetailViewPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/headway/pageobjects/EnableDisableSeriePage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/headway/pageobjects/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/headway/pageobjects/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/headway/pageobjects/LocatorsDictionary.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/headway/pageobjects/LoginHeadway.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/headway/pageobjects/ModifyNewSeriesPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/headway/pageobjects/SuccessCreateSeriePage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/headway/runner/CreateSerieTestSuite.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/headway/runner/DashboardTestSuite.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/headway/runner/DeleteSerieTestSuite.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/headway/runner/DetailViewTestSuite.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/headway/runner/EnableDisableSerieTestSuite.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/headway/runner/LoginByAuthenticatorTestSuite.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/headway/runner/LoginByTextMessageTestSuite.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/headway/runner/LoginTestSuite.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/headway/runner/ModifyNewSeriesTestSuit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/headway/runner/ParentsSelectionSerieTestSuite.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/headway/stepsdefinitions/AddParentsListSteps.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/headway/stepsdefinitions/CreateSerieSteps.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/headway/stepsdefinitions/DeleteSerieSteps.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/headway/stepsdefinitions/DetailViewSteps.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/headway/stepsdefinitions/HomeSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/headway/stepsdefinitions/HomeSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/headway/stepsdefinitions/LoginSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/headway/stepsdefinitions/LoginSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/headway/stepsdefinitions/ModifyNewSeriesSteps.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/headway/util/Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/headway/util/Util.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/model/Credential.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/CreateSerie.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Dashboard.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/DeleteSerie.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/DetailView.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/EnableDisableSerie.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Login.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/ModifyNewSeries.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/ParentsSelectionSerie.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/serenity.conf" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/serenity.conf" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="fixesIncreateSerie" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="2Rw5Mq0FPlPy9OQ5TPC6gOeCxKi" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Git.Branch.Popup.ShowAllRemotes" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.proportion" value="0.15956284" />
+    <property name="project.structure.side.proportion" value="0.38352638" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\GDM\nursery\nursery3\hw-automation-web-ui\src\test\resources\features" />
+      <recent name="C:\GDM\nursery\nursery3\hw-automation-web-ui\src\test\java\com\headway\util" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.headway.runner" />
+      <recent name="com.headway.stepsdefinitions" />
+      <recent name="com.headway.pageobjects" />
+      <recent name="com.headway.definitions" />
+      <recent name="com.headway.steps" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.CucumberTestSuite">
+    <configuration name="CucumberTestSuite" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hw-automation-web-ui" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.headway.runner.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.headway.runner" />
+      <option name="MAIN_CLASS_NAME" value="com.headway.runner.CucumberTestSuite" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DashboardTestSuite" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hw-automation-web-ui" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.headway.runner.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.headway.runner" />
+      <option name="MAIN_CLASS_NAME" value="com.headway.runner.DashboardTestSuite" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DeleteSerieTestSuite" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hw-automation-web-ui" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.headway.runner.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.headway.runner" />
+      <option name="MAIN_CLASS_NAME" value="com.headway.runner.DeleteSerieTestSuite" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTestSuite" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="hw-automation-web-ui" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="11" />
+      <option name="PACKAGE_NAME" value="com.headway.runner" />
+      <option name="MAIN_CLASS_NAME" value="com.headway.runner.LoginTestSuite" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <dir value="$PROJECT_DIR$/src/test/java/com/headway/runner" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ModifyNewSeriesTestSuit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hw-automation-web-ui" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.headway.runner.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.headway.runner" />
+      <option name="MAIN_CLASS_NAME" value="com.headway.runner.ModifyNewSeriesTestSuit" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ParentsSelectionSerieTestSuite" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hw-automation-web-ui" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.headway.runner.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.headway.runner" />
+      <option name="MAIN_CLASS_NAME" value="com.headway.runner.ParentsSelectionSerieTestSuite" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.LoginTestSuite" />
+      <item itemvalue="JUnit.ParentsSelectionSerieTestSuite" />
+      <item itemvalue="JUnit.DashboardTestSuite" />
+      <item itemvalue="JUnit.ModifyNewSeriesTestSuit" />
+      <item itemvalue="JUnit.DeleteSerieTestSuite" />
+      <item itemvalue="JUnit.CucumberTestSuite" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.CucumberTestSuite" />
+        <item itemvalue="JUnit.ParentsSelectionSerieTestSuite" />
+        <item itemvalue="JUnit.DeleteSerieTestSuite" />
+        <item itemvalue="JUnit.ModifyNewSeriesTestSuit" />
+        <item itemvalue="JUnit.DashboardTestSuite" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="146c6342-7b91-4daa-8155-75682d0145e5" name="Changes" comment="" />
+      <created>1688148259682</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1688148259682</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/headway/pageobjects/ConnectionPage.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="251" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/headway/stepsdefinitions/HomeSteps.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="296" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/headway/stepsdefinitions/HomeSteps.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="299" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

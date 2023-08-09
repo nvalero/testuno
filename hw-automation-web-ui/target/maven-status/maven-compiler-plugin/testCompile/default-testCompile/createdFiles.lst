@@ -1,0 +1,10 @@
+com\headway\definitions\CreateSeriePageDefinitions.class
+com\headway\steps\StepHomePage.class
+com\headway\steps\StepLoginHeadway.class
+com\headway\runner\LoginByAuthenticatorTestSuite.class
+com\headway\runner\LoginTestSuite.class
+com\headway\steps\StepConnectionPage.class
+com\headway\steps\CreateSeriePage.class
+com\headway\runner\LoginByTextMessageTestSuite.class
+com\headway\definitions\HomePageDefinitions.class
+com\headway\definitions\LoginPageDefinitions.class

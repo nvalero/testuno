@@ -1,0 +1,31 @@
+-------------------------------------------------------------------------------
+Test set: com.headway.runner.LoginByAuthenticatorTestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 29.328 s <<< FAILURE! - in com.headway.runner.LoginByAuthenticatorTestSuite
+Login to GDM Headway.Login - Login screen - Successful login  Time elapsed: 27.948 s  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: 
+Timed out after 20 seconds. Element not found
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.0', revision: '267030adea'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: driver.version: unknown
+	at net.thucydides.core.annotations.locators.SmartAjaxElementLocator.ajaxFindElement(SmartAjaxElementLocator.java:164)
+	at net.thucydides.core.annotations.locators.SmartAjaxElementLocator.findElement(SmartAjaxElementLocator.java:116)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at com.sun.proxy.$Proxy65.click(Unknown Source)
+	at com.headway.steps.StepLoginHeadway.clickLogin(StepLoginHeadway.java:13)
+	at com.headway.steps.StepLoginHeadway$ByteBuddy$GX09OUOC.clickLogin$accessor$nuPmuvDH(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at net.thucydides.core.steps.BaseMethodRunner.invokeMethod(BaseMethodRunner.java:18)
+	at net.thucydides.core.steps.NormalMethodRunner.invokeMethodAndNotifyFailures(NormalMethodRunner.java:18)
+	at net.thucydides.core.steps.StepInterceptor.runNormalMethod(StepInterceptor.java:421)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:193)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:86)
+	at net.thucydides.core.steps.ProxyConfiguration$InterceptorDispatcher.intercept(ProxyConfiguration.java:51)
+	at com.headway.steps.StepLoginHeadway$ByteBuddy$GX09OUOC.clickLogin(Unknown Source)
+	at com.headway.definitions.LoginPageDefinitions.clickLogin(LoginPageDefinitions.java:50)
+	at ✽.it clicks on the Log In button(classpath:features/LoginToHeadway.feature:85)
+
